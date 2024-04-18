@@ -15,7 +15,7 @@
 		$("statusInfo").style.lineHeight = deviceHeight * 0.1 + 'px' ;
 
 	//------提前下载和缓存APP需要的图片
-const booksPage = ['chengyichenxiang.jpg' , 'chengyiliuli.jpg' , 'fugui.jpg' , 'lilianhua.jpg' , 'lixiangyi.jpg' , 'wangquan.jpg' ];
+const booksPage = ['CS.jpg' , 'CSS.jpg' , 'CT.jpg' , 'GRE.jpg' , 'Git.jpg' , 'NinjaJS.jpg' , 'STEM.jpg' , 'UML.jpg' , 'bitCoin.jpg' , 'canvas.jpg' , 'cssAnimation.jpg' , 'gitForTeams.jpg' , 'internet.jpg' , 'javaScript.jpg' , 'learnCSS.jpg' , 'linuxCMD.jpg' , 'logic.jpg' , 'nutrition.jpg' , 'webProgramming.jpg' ] ;
 const teachersFace = ['0.jpg' , '1.jpg' , '10.jpg' , '11.jpg' , '12.jpg' , '13.jpg' , '2.jpg' , '3.jpg' , '4.jpg' , '5.jpg' , '6.jpg' , '7.jpg' , '8.jpg' , '9.jpg'  ] ;
 
  
@@ -24,7 +24,7 @@ const teachersFace = ['0.jpg' , '1.jpg' , '10.jpg' , '11.jpg' , '12.jpg' , '13.j
   $('bookPage').style.width = deviceWidth + 'px' ;
   
   setTimeout( ()=>$('teacherFace').src = 'myface/0.jpg' ,3000);
-  setTimeout( ()=>$('bookPage').src = 'lesson/chengyichenxaing.jpg' ,4000);
+  setTimeout( ()=>$('bookPage').src = 'lesson/CS.jpg' ,4000);
   setTimeout(loadImgOneByOne,5000);
   
  //测试封面图片在本地和在github上的巨大区别，分析异步代码的执行流程图
