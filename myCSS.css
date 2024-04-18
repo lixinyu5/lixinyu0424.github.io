@@ -7,7 +7,7 @@ main>img#bookPage{
 }
 header{
  height: 15% ;
- background: rgb(250,100,0);
+ background: rgb(0,0,0);
  color: rgb(250,250,0);
 }
 nav {
@@ -21,7 +21,7 @@ footer{
 main{
  height: 65% ;
  position:relative;
- /*ÔÚÄ³Ð©Éè±¸ÖÐ£¬mainÈÝÆ÷ÄÚµÄbookPage²åÍ¼¿ÉÄÜ¸ß¶È¿ÉÄÜ³¬³öÉè¶¨·¶Î§£¬¶Ô³¬³öµÄ²¿·ÖÒþ²Ø´¦Àí£¡*/
+ /*ï¿½ï¿½Ä³Ð©ï¿½è±¸ï¿½Ð£ï¿½mainï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½bookPageï¿½ï¿½Í¼ï¿½ï¿½ï¿½Ü¸ß¶È¿ï¿½ï¿½Ü³ï¿½ï¿½ï¿½ï¿½è¶¨ï¿½ï¿½Î§ï¿½ï¿½ï¿½Ô³ï¿½ï¿½ï¿½ï¿½Ä²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø´ï¿½ï¿½ï¿½ï¿½ï¿½*/
   overflow: hidden ; 
 }
 
@@ -57,7 +57,7 @@ nav>p#chapter{
  font-size: 1.2em;
  
  text-align:center;
- background-color: brown ;
+ 
 }
 
 div#progressBar{
