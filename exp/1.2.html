@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width , initial-scale=1">
+  <!-- 
+   增加这句后，可以看到浏览器的DevTools面板的模拟移动设备状态的变化
+  -->
+  <style>
+    body{
+      font-size: 30px;
+      text-align: center;
+    }
+    header{
+      border: 2px solid blue;
+      height: 10%;
+      background-color: blue;
+      color: white;
+    }
+    main{
+      border: 2px solid blue;
+      height: 5%;
+    }
+    main{
+      height: 75%;
+      background-image: url(./lesson/CS.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    footer{
+      border: 2px solid blue;
+      height: 10%;
+      background-color: black;
+      color: aliceblue;
+    }
+    p#book{
+        font-size: 1.8em;
+        letter-spacing: 0.2em;
+    }
+    button{
+        font-size: 1.2em;
+        margin-right: 1em;
+    }
+  </style>
+  
+Welcome to myCTApp
+ </head> 
+ <body>
+  <header>
+    <p id="book">
+     《计算思维和语言学习》
+  </p>
+  </header>
+<nav>
+    <button>
+        导航1
+    </button>
+    <button>
+        导航2
+    </button>
+    <button>
+        导航3
+    </button>
+   </nav>
+   <main>
+    
+
+   </main>
+   
+
+  <footer> 
+   
+	CopyRight from 李新雨 江西科技师范大学
+	
+  </footer> 
+  <script>
+    var UI = {};
+    UI.deviceWidth = window.innerWidth;
+    UI.deviceHeight = window.innerHeight;
+    document.body.style.height = UI.deviceHeight + 'px';
+  </script>
+ 
+ </body>
+</html>
